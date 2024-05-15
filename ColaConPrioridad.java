@@ -25,8 +25,8 @@ public class ColaConPrioridad implements Cola_con_prioridad_TDA {
 
 	@Override
 	public void Desacolar() {
-		elementos[indice-1] = null; //Borramos el elemento de mayor prioridad, que es el que esta mas
-									//a la derecha
+		elementos[indice-1] = null; //Borramos el valor del elemento de mayor prioridad, que es el que esta mas a la derecha
+		indice--;		    //Eliminamos el ultimo elemento de la cola
 	}
 
 	@Override
